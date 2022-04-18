@@ -18,7 +18,7 @@
 //           console.log('Some error has occurred');
 //       });
 
-let is_shop_open = true;
+let is_shop_open = false;
 function order(time, work) {
     return new Promise((resolve, reject) => {
 
@@ -46,4 +46,13 @@ order(2000,()=>console.log("Order received") )
 
 .then(() => {
     return order(1000, () => console.log("Production completed."))
-} );
+} )
+
+.catch(() => {
+    console.log("Customer left");
+})
+
+.finally(() => {
+    console.log("Day ended, shop is closed");
+}
+)
