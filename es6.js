@@ -28,3 +28,10 @@ console.log(name);
 //Template literals
 let showvalue = `My full name is ${name} ${surname}. I am from ${state}`;
 console.log(showvalue);
+
+//Default Arguments
+
+function CandidateAge(age=18){
+    return age;
+}
+console.log(CandidateAge()); //default value is set to 18
