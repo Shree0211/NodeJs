@@ -1,12 +1,12 @@
 // //Simple Async/Await example
-// const one = async() => {
-//     var y = await "Hello World";
-//     console.log(y);
-// }
+const one = async() => {
+    var y = await "Hello World";
+    console.log(y);
+}
   
-// console.log(1);
-// one();
-// console.log(2);
+console.log(1);
+one();
+console.log(2);
 
 //use of await keyword 
 let is_shop_open = true;
