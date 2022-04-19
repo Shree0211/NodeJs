@@ -41,3 +41,9 @@ console.log(CandidateAge()); //default value is set to 18
      return a+b;
  }
 console.log(sum(10,20));
+
+//MultiLine Strings
+let display = `Hello World!!! How you doing?
+               Hope you are good.`
+
+console.log(display);
