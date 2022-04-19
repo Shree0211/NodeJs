@@ -35,3 +35,9 @@ function CandidateAge(age=18){
     return age;
 }
 console.log(CandidateAge()); //default value is set to 18
+
+//Arrow function
+ let sum = (a,b) => {
+     return a+b;
+ }
+console.log(sum(10,20));
