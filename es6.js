@@ -47,3 +47,18 @@ let display = `Hello World!!! How you doing?
                Hope you are good.`
 
 console.log(display);
+
+//Class
+
+class UserProfile {   
+    constructor(firstName, lastName) { 
+       this.firstName = firstName;
+       this.lastName = lastName;     
+    }  
+     
+    getName() {       
+      console.log(`My Full-Name is ${this.firstName} ${this.lastName}`);    
+    } 
+ }
+ let obj = new UserProfile('Shree', 'Vyas');
+ obj.getName();
