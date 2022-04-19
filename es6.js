@@ -62,3 +62,12 @@ class UserProfile {
  }
  let obj = new UserProfile('Shree', 'Vyas');
  obj.getName();
+
+ //Promise
+
+ var asyncCall =  new Promise((resolve, reject) => {
+    // do something
+    resolve();
+ }).then(()=> {   
+    console.log('Hello..');
+ })
