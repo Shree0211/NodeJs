@@ -19,6 +19,12 @@ function checks(){
 }
 checks();
 
-const name = 'shree';
+const name = 'Shree';
+const surname = 'Vyas';
+const state = 'Gujarat'
 console.log(name);
 //name = 'shreee'
+
+//Template literals
+let showvalue = `My full name is ${name} ${surname}. I am from ${state}`;
+console.log(showvalue);
