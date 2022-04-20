@@ -71,3 +71,15 @@ class UserProfile {
  }).then(()=> {   
     console.log('Hello..');
  })
+
+ //Destructing objects
+
+ const Info = {
+     firstName: 'Shree',
+     lastName: 'Vyas',
+     state: 'Gujarat',
+     country: 'India'
+ }
+const {firstName: fn, lastName: ln} = Info;
+console.log(`${fn} ${ln}`);
+
