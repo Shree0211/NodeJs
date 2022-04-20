@@ -97,3 +97,9 @@ let example2=[...example1]
 example2.push(true)
 console.log(example2);
 
+//rest operator
+
+function add(...nums){
+    console.log(nums)
+}
+add(3,4,5,6)
