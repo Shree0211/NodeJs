@@ -72,7 +72,7 @@ class UserProfile {
     console.log('Hello..');
  })
 
- //Destructing objects
+ //Destructing objects and arrays
 
  const Info = {
      firstName: 'Shree',
@@ -83,3 +83,9 @@ class UserProfile {
 const {firstName: fn, lastName: ln} = Info;
 console.log(`${fn} ${ln}`);
 
+//object literals 
+function address(city,state){
+    const newaddress = (city,state)
+    console.log(newaddress);
+}
+address('rajkot','gujarat');
